@@ -1,70 +1,15 @@
-# The CUBE: multidimensional array assignment
-
-### My recommendations
-The first step of this program I think needs to be plan. Plan plan plan and eventually you will see how easy this assignment can be. If you skip the planning phase this assignment has the ability to be very tricky and even impossible if you find yourself far enough down the wrong path. Also, please collaborate if you are running into a wall. Feel free to share repositories and ideas.
+# Translation Assignment
 
 ### The assignment
-You are tasked with building a console driven program that will simulate movements on a rubics cube. You must be able to output the state of the rubics cube in this format:
-
-`r|r|r`<br>
-`r|r|r`<br>
-`r|r|r`<br>
-`     `<br>
-`b|b|b`<br>
-`b|b|b`<br>
-`b|b|b`<br>
-`     `<br>
-`o|o|o`<br>
-`o|o|o`<br>
-`o|o|o`<br>
-`     `<br>
-`g|g|g`<br>
-`g|g|g`<br>
-`g|g|g`<br>
-`     `<br>
-`y|y|y`<br>
-`y|y|y`<br>
-`y|y|y`<br>
-`     `<br>
-`w|w|w`<br>
-`w|w|w`<br>
-`w|w|w`<br>
-
-The inputs for this program will also be restricted to (u, d, r, l, f, b) or (u', d', r', l', f', b') which represent the moves in the diagram below.
-
-<p align="center">
-  <a href="https://jperm.net/3x3/moves">
-    <img alt="rubics cube" src="https://firebasestorage.googleapis.com/v0/b/school-suu.appspot.com/o/moves.PNG?alt=media&token=ce6bef26-3cc3-424e-906e-768987b6108c" width="100%" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://jperm.net/3x3/movesm">
-    <img alt="rubics cube" src="https://firebasestorage.googleapis.com/v0/b/school-suu.appspot.com/o/rpimeMoves.PNG?alt=media&token=0e624a78-5df5-417e-ba2c-598bb20ad7d2" width="100%" />
-  </a>
-</p>
-
-On each loop of your program or on the final output you must list commands that would solve the cube. These commands could of course just be the commands entered already but backwards.
-
-You must use at least one array of 2 or more dimensions.
-
-This program must include command line args to allow testing with predetermined inputs. You must also build a mode for when args are being used so that it will only output the final state of the rubics cube in the given format and terminate for testing reasons.
+You are tasked with translating the given java programs into C equivalents. Some methods employed by the java programs are not known to you yet throught the course so just try to build your own equivalents using what you do know.
 
 Please push final version to master.
-
-### Extra Credit
-You will get extra credit if you have your program return a shorter list of commands to solve the rubics cube than what is the commands already entered but in reverse.
-
 
 ### Setup command
 N/A
 
 ### Due Date
 29th of September at 11:00pm
-
-
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. No public tests on this one as it is complex enough that it would be a worthwhile endeavor to just write for the tests so I will execute them on submission.
-
 
 
 # All the Github Resources You Should Need
